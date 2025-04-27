@@ -57,4 +57,112 @@
       background: #388E3C;
       color: white;
     }
-    section
+    section h2 {
+      font-size: 2em;
+      color: #4CAF50;
+      margin-top: 0;
+      animation: fadeInUp 1s ease-out;
+    }
+    section p, ul {
+      font-size: 1.1em;
+      animation: fadeInUp 1.2s ease-out;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      animation: fadeIn 1s ease-out;
+    }
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Unlock Powerful Insights from Your Data</h1>
+    <p>Custom dashboards and analysis built for your business — fast, flexible, and focused on growth.</p>
+    <a href="mailto:contact@sproutanalysis.com" class="button">Get Started</a>
+  </header>
+
+  <section>
+    <h2>Understand Your Business at a Deeper Level</h2>
+    <p>You have the data — but turning it into actionable insights is hard, time-consuming, and expensive. 
+    Sprout Analysis makes it easy.</p>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <ul>
+      <li><strong>Connect or Send Your Data:</strong> Provide database access or periodic exports.</li>
+      <li><strong>Data Cleaning and Structuring:</strong> We model and organize your data.</li>
+      <li><strong>Tailored Dashboards and Reports:</strong> Customized to your business goals.</li>
+      <li><strong>Iterate and Expand:</strong> Update and expand as your needs grow.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who We Help</h2>
+    <ul>
+      <li>SaaS companies focused on user growth and monetization</li>
+      <li>eCommerce brands optimizing revenue and retention</li>
+      <li>Startups needing deep insights without heavy lifting</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Sprout Analysis</h2>
+    <ul>
+      <li>Fast onboarding with minimal setup</li>
+      <li>Fully customized reporting and dashboards</li>
+      <li>Built by an experienced data scientist</li>
+    </ul>
+  </section>
+
+  <footer>
+    <h2>Ready to unlock insights?</h2>
+    <p>Contact us: <a href="mailto:contact@sproutanalysis.com">contact@sproutanalysis.com</a></p>
+  </footer>
+
+</body>
+</html>
